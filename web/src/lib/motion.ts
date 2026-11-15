@@ -3,8 +3,7 @@ import type { Nav } from "../features/wheel";
 
 const EASE_OUT = [0.2, 0, 0, 1] as const;
 
-// Pages slide sideways, entering a category zooms in, going back zooms out. Tweens only: CEF 103 replaces springs
-// on compositor values with a fixed ease.
+// Pages slide sideways, entering a category zooms in, going back zooms out.
 const IN: Record<Nav, TargetAndTransition> = {
   open: { opacity: 0, scale: 0.94 },
   enter: { opacity: 0, scale: 0.9 },
