@@ -1,5 +1,17 @@
 # Changelog
 
+## [0.1.6](https://github.com/aifivem/ai-radialmenu/compare/v0.1.5...v0.1.6) (2026-11-15)
+
+
+### Code Refactoring
+
+* **web:** individual translate / scale / rotate utilities instead of arbitrary transforms (CEF 144) ([8f03817](https://github.com/aifivem/ai-radialmenu/commit/8f038179e42eacc1bb3d265051afb75abcf1d174))
+
+
+### Documentation
+
+* **web:** drop the CEF 103 tween note from the wheel motion ([ad0a08c](https://github.com/aifivem/ai-radialmenu/commit/ad0a08cc27353f99b756fab350a593729bfb5c78))
+
 ## [0.1.5](https://github.com/aifivem/ai-radialmenu/compare/v0.1.4...v0.1.5) (2026-11-02)
 
 
