@@ -159,7 +159,7 @@ export function Wheel() {
               aria-label={canGoBack ? texts.back : texts.close}
               title={canGoBack ? texts.back : texts.close}
               onClick={back}
-              className="absolute inset-[1.6vh] flex items-center justify-center rounded-full text-white/70 transition-[color,transform] duration-150 ease-out hover:text-tgi-green focus-visible:text-tgi-green active:[transform:scale(0.94)]"
+              className="absolute inset-[1.6vh] flex items-center justify-center rounded-full text-white/70 transition-[color,transform,translate,scale,rotate] duration-150 ease-out hover:text-tgi-green focus-visible:text-tgi-green active:scale-94"
             >
               <FontAwesomeIcon
                 icon={canGoBack ? faArrowLeft : faDoorOpen}

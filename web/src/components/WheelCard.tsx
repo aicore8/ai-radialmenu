@@ -30,7 +30,7 @@ function WheelCardBase({
       onClick={() => onPick(item)}
       onMouseEnter={() => onHoverStart(item, index)}
       onMouseLeave={onHoverEnd}
-      className={`group absolute rounded-[1.4vh] border-[0.1vh] text-left [box-shadow:inset_0_0_3vh_1vh_rgba(0,0,0,0.2)] transition-[border-color,background-color,transform] duration-150 ease-out hover:border-tgi-green hover:bg-tgi-green-10 focus-visible:border-tgi-green active:[transform:scale(0.98)] ${active ? "border-tgi-green bg-tgi-green-10" : "border-white/10 bg-[rgba(217,217,217,0.02)]"}`}
+      className={`group absolute rounded-[1.4vh] border-[0.1vh] text-left [box-shadow:inset_0_0_3vh_1vh_rgba(0,0,0,0.2)] transition-[border-color,background-color,transform,translate,scale,rotate] duration-150 ease-out hover:border-tgi-green hover:bg-tgi-green-10 focus-visible:border-tgi-green active:scale-98 ${active ? "border-tgi-green bg-tgi-green-10" : "border-white/10 bg-[rgba(217,217,217,0.02)]"}`}
       style={{
         left: `calc(50% + ${slot.x - CARD.width / 2}vh)`,
         top: `calc(50% + ${slot.y - CARD.height / 2}vh)`,

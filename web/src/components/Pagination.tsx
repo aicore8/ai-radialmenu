@@ -20,7 +20,7 @@ function Arrow({
       title={label}
       disabled={disabled}
       onClick={onClick}
-      className="flex size-[3.6vh] items-center justify-center rounded-[0.8vh] border-[0.1vh] border-white/10 bg-control text-white/80 transition-[background-color,color,transform] duration-150 ease-out enabled:hover:bg-control-hover enabled:hover:text-white enabled:active:[transform:scale(0.94)] disabled:opacity-40"
+      className="flex size-[3.6vh] items-center justify-center rounded-[0.8vh] border-[0.1vh] border-white/10 bg-control text-white/80 transition-[background-color,color,transform,translate,scale,rotate] duration-150 ease-out enabled:hover:bg-control-hover enabled:hover:text-white enabled:active:scale-94 disabled:opacity-40"
     >
       <FontAwesomeIcon
         icon={right ? faArrowRight : faArrowLeft}

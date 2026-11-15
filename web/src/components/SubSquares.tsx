@@ -39,7 +39,7 @@ export function SubSquares({
               onLeave();
               setHovered(null);
             }}
-            className={`absolute flex animate-fade items-center justify-center rounded-[1vh] border-[0.1vh] bg-[rgba(20,20,20,0.55)] [box-shadow:inset_0_0_2vh_0.5vh_rgba(0,0,0,0.2)] transition-[border-color,background-color,transform] duration-150 ease-out focus-visible:border-tgi-green active:[transform:scale(0.94)] ${on ? "z-30 border-tgi-green bg-tgi-green-10" : "z-20 border-white/10"}`}
+            className={`absolute flex animate-fade items-center justify-center rounded-[1vh] border-[0.1vh] bg-[rgba(20,20,20,0.55)] [box-shadow:inset_0_0_2vh_0.5vh_rgba(0,0,0,0.2)] transition-[border-color,background-color,transform,translate,scale,rotate] duration-150 ease-out focus-visible:border-tgi-green active:scale-94 ${on ? "z-30 border-tgi-green bg-tgi-green-10" : "z-20 border-white/10"}`}
             style={{
               left: `calc(50% + ${slot.x - SUB_SIZE / 2}vh)`,
               top: `calc(50% + ${slot.y - SUB_SIZE / 2}vh)`,
