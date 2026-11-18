@@ -1,5 +1,5 @@
-import { callExport, isResourceStarted } from "@aifivem/lib/client";
-import { createLogger, isRecord, readText } from "@aifivem/lib/shared";
+import { callExport, isResourceStarted } from "@aicore8/lib/client";
+import { createLogger, isRecord, readText } from "@aicore8/lib/shared";
 import type { Item } from "./registry";
 
 const log = createLogger("ai-radialmenu");

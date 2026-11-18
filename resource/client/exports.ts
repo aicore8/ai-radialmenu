@@ -2,8 +2,8 @@ import {
   caller,
   provideExport,
   registerExport,
-} from "@aifivem/lib/client";
-import { isRecord } from "@aifivem/lib/shared";
+} from "@aicore8/lib/client";
+import { isRecord } from "@aicore8/lib/shared";
 import { iconName, toItem, toItems } from "./compat";
 import type { ItemState, MenuRegistry } from "./registry";
 import type { Wheel } from "./wheel";
